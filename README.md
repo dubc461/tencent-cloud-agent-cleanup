@@ -1,6 +1,7 @@
 # tencent-cloud-agent-cleanup.sh
 
-**支持 Debian 12**
+**支持 Debian 12**  
+
 腾讯云 CVM 一次性清理脚本：删除镜像自带的 stargate、barad 云监控、YunJing 云镜、
 TAT 自动化代理和 onion 预加载库，并拆掉它们的复活机制。保留镜像的网卡调优脚本。
 仅在目标机器上是 root 时运行。
